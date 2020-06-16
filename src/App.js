@@ -9,6 +9,7 @@ import { Route } from "react-router-dom";
 import Main from "./components/Main";
 import About from "./components/About";
 import TechSkill from "./components/TechSkill";
+import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Career from "./components/Career";
 import Education from "./components/Education";
@@ -34,7 +35,7 @@ class App extends Component {
             <a href="/TechSkill" className={styles.ListItem}>
               TECH SKILLS
             </a>
-            <a href="#" className={styles.ListItem}>
+            <a href="/Project" className={styles.ListItem}>
               PROJECT
             </a>
             <a href="/Experience" className={styles.ListItem}>
@@ -55,11 +56,12 @@ class App extends Component {
           </div>
         </div>
 
-        <section>
+        <section className={styles.SectionWrapper}>
           <BrowserRouter>
             <Route exact path="/" component={Main} />
             <Route exact path="/About" component={About} />
             <Route exact path="/TechSkill" component={TechSkill} />
+            <Route exact path="/Project" component={Project} />
             <Route exact path="/Experience" component={Experience} />
             <Route exact path="/Career" component={Career} />
             <Route exact path="/Education" component={Education} />
