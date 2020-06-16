@@ -1,0 +1,114 @@
+.EducationWrapper {
+  padding-bottom: 2rem;
+}
+
+.EducationWrapper h2 {
+  margin-top: 4rem;
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+
+.TimeLineWrapper {
+  position: relative;
+  width: 500px;
+}
+
+.CircleBox {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+}
+
+.TimeLine {
+  width: 1px;
+  height: 550px;
+  background-color: #000;
+  position: absolute;
+  left: 25px;
+}
+
+.SmallCircleOne,
+.SmallCircleTwo,
+.SmallCircleThree,
+.SmallCircleFour,
+.SmallCircleFive,
+.SmallCircleSix {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+
+.SmallCircleOne {
+  position: absolute;
+  left: 20px;
+  top: 100px;
+}
+
+.SmallCircleTwo {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+}
+
+.SmallCircleThree {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+}
+
+.SmallCircleFour {
+  position: absolute;
+  left: 20px;
+  top: 400px;
+}
+
+.SmallCircleFive {
+  position: absolute;
+  left: 20px;
+  top: 500px;
+}
+
+.SmallCircleSix {
+  position: absolute;
+  left: 20px;
+  top: 600px;
+}
+
+.TextOne {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+}
+
+.TextTwo {
+  position: absolute;
+  left: 40px;
+  top: 200px;
+}
+
+.TextThree {
+  position: absolute;
+  left: 40px;
+  top: 300px;
+}
+
+.TextFour {
+  position: absolute;
+  left: 40px;
+  top: 400px;
+}
+
+.TextFive {
+  position: absolute;
+  left: 40px;
+  top: 500px;
+}
+
+.TextSix {
+  position: absolute;
+  left: 40px;
+  top: 600px;
+}

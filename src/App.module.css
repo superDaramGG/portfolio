@@ -1,0 +1,31 @@
+.Main {
+  display: flex;
+}
+
+.SidebarWrapper {
+  width: 300px;
+  height: 100%;
+  padding: 1rem;
+}
+
+.LogoName {
+  width: 200px;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  font-weight: bolder;
+  padding: 1rem 0;
+  margin: 3rem auto;
+}
+
+.ListGroup {
+  margin-top: 3rem;
+}
+
+.ListItem {
+  text-align: center;
+  display: block;
+  padding: 0.8rem 0;
+  color: #000;
+}

@@ -1,0 +1,31 @@
+.ExpWrapper h2 {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  margin-top: 4rem;
+}
+
+.ExpBox {
+  width: 229px;
+  height: 326px;
+  margin-bottom: 30px;
+  padding: 1rem 1rem 1rem 1rem;
+  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  border-bottom: 2px solid #2c98f0;
+}
+
+.ExpBox dl dt {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ExpBox dl dd {
+  font-weight: 100;
+}

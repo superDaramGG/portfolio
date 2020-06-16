@@ -1,0 +1,29 @@
+.ContactWrapper {
+  border: 1px dashed #e9ecef;
+  margin-top: 7rem;
+  margin-left: 10rem;
+  padding: 2rem;
+}
+
+.ContactTitle {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+
+.BoxFirst {
+  width: 100px;
+  height: 100px;
+  background-color: #e9ecef;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.BoxSecond {
+  width: 200px;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding-top: 2rem;
+}

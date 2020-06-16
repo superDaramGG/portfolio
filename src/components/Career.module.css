@@ -1,0 +1,39 @@
+.CareerTitle {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  margin-top: 4rem;
+}
+
+.BlueCircle {
+  width: 100px;
+  height: 100px;
+  background-color: #2c98f0;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.PinkCircle {
+  width: 100px;
+  height: 100px;
+  background-color: #ec5453;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.CompanyBoxFirst {
+  border: 1px solid red;
+  background: #f2f3f7;
+  padding: 1.5em;
+}
+
+.CompanyBoxFirst h2 {
+  font-size: 20px;
+  font-weight: 500;
+}

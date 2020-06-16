@@ -1,0 +1,19 @@
+.MainImgWrapper {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.MainImg {
+  width: 900px;
+  margin-top: 2rem;
+}
+
+.MainTitle {
+  position: absolute;
+  font-weight: bolder;
+  top: 100px;
+  left: 30px;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}

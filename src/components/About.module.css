@@ -1,0 +1,25 @@
+.AboutLeft {
+  margin-top: 4rem;
+}
+
+.AboutLeft h2 {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+
+.AboutLeft p.First {
+  margin-bottom: 1.5rem;
+}
+
+.AboutLeft p.Second {
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.AboutRight {
+  margin-top: 15rem;
+  list-style-type: square;
+}
