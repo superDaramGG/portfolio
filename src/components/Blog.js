@@ -1,37 +1,32 @@
 import React, { Component } from "react";
 import styles from "./Blog.module.css";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
+import BlogImg from "../images/blogPic.jpg";
 
 class Blog extends Component {
   render() {
     return (
-      <div className={styles.BlogWrapper}>
-        <Container>
-          <Row>
-            <Col>
-              <h2 className={styles.BlogTitle}>BLOG</h2>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <div className={styles.BlogContentWrapper}>
-                <a href="" className={styles.BlogImgWrapper}>
-                  <img src="#" alt="이미지" />
-                </a>
-                <div className={styles.desc}>
-                  <h3>yete의 개발로그</h3>
-                  <small>개발 블로그 운영</small>
-                  <p>
-                    더 성장하기 위해서
-                    <br />
-                    개발 블로그를 운영하기 시작했습니다.
-                  </p>
-                </div>
+      <React.Fragment>
+        <h2 className={styles.BlogTitle}>BLOG</h2>
+        <Row>
+          <Col>
+            <div>
+              <a href="#" className={styles.BlogImgWrapper}>
+                <img src={BlogImg} alt="블로그 이미지" />
+              </a>
+              <div className={styles.desc}>
+                <h3>yete의 개발로그</h3>
+                <small>개발 블로그 운영</small>
+                <p>
+                  더 성장하기 위해서
+                  <br />
+                  개발 블로그를 운영하기 시작했습니다.
+                </p>
               </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+            </div>
+          </Col>
+        </Row>
+      </React.Fragment>
     );
   }
 }

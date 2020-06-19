@@ -1,7 +1,3 @@
-.BlogWrapper {
-  margin-top: 4rem;
-}
-
 .BlogTitle {
   font-size: 18px;
   margin-bottom: 4em;
@@ -10,26 +6,29 @@
   line-height: 1.8;
 }
 
-.BlogContentWrapper {
-  border: 1px solid red;
-}
-
 .BlogImgWrapper {
-  width: 244px;
-  height: 171px;
   display: inline-block;
+  width: 100%;
 }
 
 .BlogImgWrapper img {
   width: 244px;
   height: 171px;
+  margin: 0 auto;
+  display: block;
+}
+
+.desc {
+  width: 250px;
+  text-align: center;
+  margin: 2rem auto 0;
 }
 
 .desc h3 {
-  font-size: 16px;
+  font-size: 1.3rem;
   margin-bottom: 25px;
   line-height: auto;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 1px;
   color: #000;
 }

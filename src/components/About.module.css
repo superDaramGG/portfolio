@@ -1,7 +1,3 @@
-.AboutLeft {
-  margin-top: 4rem;
-}
-
 .AboutLeft h2 {
   font-size: 18px;
   margin-bottom: 4em;
@@ -20,6 +16,68 @@
 }
 
 .AboutRight {
-  margin-top: 15rem;
+  margin-top: 11rem;
   list-style-type: square;
+  padding-left: 0;
+}
+
+.AboutSkillBox {
+  margin-bottom: 30px;
+  padding: 50px 0;
+  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+}
+
+.AboutSkillBox h3 {
+  font-size: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.One {
+  border-bottom: 5px solid #2c98f0;
+}
+
+.Two {
+  border-bottom: 5px solid #dc3545;
+}
+
+.Three {
+  border-bottom: 5px solid #ffc107;
+}
+
+.Four {
+  border-bottom: 5px solid #28a745;
+}
+
+.Five {
+  border-bottom: 5px solid #545b62;
+}
+
+.AboutBigBox {
+  padding: 1rem;
+  background: rgba(0, 123, 255, 0.5);
+}
+
+.AboutBigBox p {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 123, 255, 0.25);
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .AboutRight {
+    margin-top: 11rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .AboutRight {
+    margin-top: 0;
+    padding-left: 1.2rem;
+  }
 }

@@ -1,65 +1,102 @@
 import React, { Component } from "react";
 import styles from "./Career.module.css";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 
 class Career extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <h2 className={styles.CareerTitle}>WORK CAREER</h2>
-        <Container>
-          <Row>
-            <Col md="2">
-              <div className={styles.BlueCircle}>1</div>
-            </Col>
-            <Col md="10">
-              <div className={styles.CompanyBoxFirst}>
-                <h2>주)아이펀 팩토리</h2>
-                <span>2019.01~2020.06</span>
-                <p>
-                  미텔슈탄트에서 다양한 프로그램들을 기획 및 총괄 운영
-                  관리하였습니다.기획 및 운영한 프로그램으로는 대구경북 원데이
-                  비즈쿨 창업캠프 [대구경북지방중소벤처기업청], 제주 새싹꿈나무
-                  창업캠프 [제주대학교 LINC+사업단], 창업동아리를 위한 프로젝트
-                  워커톤 [경북대학교 연구산학처], 지방권역 민간 창업교육
-                  프로그램 [창업진흥원], KNU 창업역량강화캠프 '창업드림캠프'
-                  운영 [경북대학교 산학협력단], 대구창업카페 운영 [대구광역시,
-                  대구창조경제혁신센터], 고교창업 인재육성 특성화사업 창업캠프
-                  및 창업경진대회 운영 [대전광역시, 대전경제통상진흥원],
-                  김원길창업스쿨 '스타트업 투어' 운영 [경북대학교 경상대학],
-                  미래 CTO를 꿈꾸는 개발자를 위한 '스타트업 투어' 운영
-                  [경북대학교 PRIME사업단] 등이 있습니다.
-                </p>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col md="2">
-              <div className={styles.PinkCircle}>2</div>
-            </Col>
-            <Col md="10">
-              <div className={styles.CompanyBoxFirst}>
-                <h2>주)빈티지랩 - 구루핏</h2>
-                <span>2019.01~2020.06</span>
-                <p>
-                  미텔슈탄트에서 다양한 프로그램들을 기획 및 총괄 운영
-                  관리하였습니다.기획 및 운영한 프로그램으로는 대구경북 원데이
-                  비즈쿨 창업캠프 [대구경북지방중소벤처기업청], 제주 새싹꿈나무
-                  창업캠프 [제주대학교 LINC+사업단], 창업동아리를 위한 프로젝트
-                  워커톤 [경북대학교 연구산학처], 지방권역 민간 창업교육
-                  프로그램 [창업진흥원], KNU 창업역량강화캠프 '창업드림캠프'
-                  운영 [경북대학교 산학협력단], 대구창업카페 운영 [대구광역시,
-                  대구창조경제혁신센터], 고교창업 인재육성 특성화사업 창업캠프
-                  및 창업경진대회 운영 [대전광역시, 대전경제통상진흥원],
-                  김원길창업스쿨 '스타트업 투어' 운영 [경북대학교 경상대학],
-                  미래 CTO를 꿈꾸는 개발자를 위한 '스타트업 투어' 운영
-                  [경북대학교 PRIME사업단] 등이 있습니다.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+        <Row>
+          <Col md="1">
+            <div className={styles.BlueCircle}>1</div>
+          </Col>
+          <Col md="11">
+            <div className={styles.CompanyBox}>
+              <h2>주)아이펀 팩토리</h2>
+              <div className={styles.CareerDate}>2019.01~2020.06</div>
+              <p>
+                아이펀팩토리는{" "}
+                <span className={styles.CareerBold}>코인원 거래소 자회사</span>
+                로
+                <br />
+                거래소,게임 엔진 개발 및 거래소 디플로이 관련
+                <br />
+                프로젝트를 주로 진행했습니다.
+                <br />
+                제가 맡은 업무는{" "}
+                <span className={styles.CareerBold}>거래소 디플로이팀</span>에서
+                진행되는 업무였는데
+                <br />
+                거래소 UI 및 간단한 프론트엔드 기능들을 만들고
+                <br />
+                API를 연동하는 일이었습니다.
+                <br />
+                주니어로써 시니어 개발자를 도와서
+                <br />
+                맡은 임무들을 열심히 수행해 나갔습니다.
+                <br />
+                총 4가지 프로젝트를 진행했는데
+                <br />첫 번째는{" "}
+                <span className={styles.CareerBold}>
+                  코인원 코어 거래소 데모 사이트
+                </span>
+                이고
+                <br />두 번째는{" "}
+                <span className={styles.CareerBold}>Xgreen</span>,
+                <br />세 번째는{" "}
+                <span className={styles.CareerBold}>거래소 마진 영역 개발</span>
+                <br />
+                마지막으로 네 번째는 아이펀팩토리 자체 사이트에서
+                <br />
+                추가되는 기능인{" "}
+                <span className={styles.CareerBold}>멤버십 영역</span>을
+                담당했습니다.
+              </p>
+            </div>
+          </Col>
+        </Row>
+        <Row className="mt-5">
+          <Col md="1">
+            <div className={styles.PinkCircle}>2</div>
+          </Col>
+          <Col md="11">
+            <div className={styles.CompanyBox}>
+              <h2>주)빈티지랩 - 구루핏</h2>
+              <div className={styles.CareerDate}>2017.03~2018.08</div>
+              <p>
+                빈티지랩에서는{" "}
+                <span className={styles.CareerBold}>스타트업</span>을 경험할 수
+                있는 귀중한 시간이었습니다.
+                <br />
+                빈티지랩에서 하는 일은 일반 대기업이나 중견기업 등 큰 조직의
+                <br />
+                생각으로는 하기 힘들거나 실패했던 프로젝트를 가져와서 <br />
+                처음부터 기획을 하고, 개발을 해서 완성이 되면 몇 년을 운영하고,
+                지켜보다가
+                <br />
+                고객사에다가 다시 되돌려주는 형태의 사업을 진행했습니다.
+                <br />
+                제가 맡게 된 프로젝트는 고객에게 딱 맞는 신발 상품을
+                <br />
+                찾을 수 있도록 도와주는{" "}
+                <span className={styles.CareerBold}>쇼핑몰을 제작</span>하는
+                것이었습니다.
+                <br />
+                사이트는 처음 <span className={styles.CareerBold}>React</span>로
+                제작이 되어졌다가
+                <br />그 후에 변동이 생겨서{" "}
+                <span className={styles.CareerBold}>JQuery</span>를 이용했고,
+                <br />그 이후 또 한번 변동이 생겨서{" "}
+                <span className={styles.CareerBold}>고도몰 서비스</span>를
+                구입해서
+                <br />
+                디자인을 적용하고, 소스를 고치는 작업들을 진행했습니다.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </React.Fragment>
     );
   }
 }

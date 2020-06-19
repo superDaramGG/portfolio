@@ -2,11 +2,9 @@ import React, { Component } from "react";
 // import { BrowserRouter } from "react-router-dom";
 // import { Route } from "react-router-dom";
 import styles from "./App.module.css";
-import { render } from "@testing-library/react";
-import { Container, Row, Col } from "reactstrap";
 import { BrowserRouter } from "react-router-dom";
 import { Route } from "react-router-dom";
-import Main from "./components/Main";
+import Home from "./components/Home";
 import About from "./components/About";
 import TechSkill from "./components/TechSkill";
 import Project from "./components/Project";
@@ -58,7 +56,7 @@ class App extends Component {
 
         <section className={styles.SectionWrapper}>
           <BrowserRouter>
-            <Route exact path="/" component={Main} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/About" component={About} />
             <Route exact path="/TechSkill" component={TechSkill} />
             <Route exact path="/Project" component={Project} />

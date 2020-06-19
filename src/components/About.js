@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import styles from "./About.module.css";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 
 class About extends Component {
   render() {
     return (
-      <Container>
+      <React.Fragment>
         <Row>
           <Col md="6">
             <div className={styles.AboutLeft}>
@@ -23,7 +23,7 @@ class About extends Component {
                 <br />
                 시작하게 되었습니다.
                 <br />
-                앞으로도 좋은 코딩 실력을 연마하여
+                앞으로도 코딩 실력을 연마하여
                 <br />
                 양질의
                 <br />
@@ -47,7 +47,45 @@ class About extends Component {
             </ul>
           </Col>
         </Row>
-      </Container>
+        <Row className="mt-5">
+          <Col md="3">
+            <div className={`${styles.AboutSkillBox} ${styles.One}`}>
+              <h3>HTML&CSS&JS</h3>
+            </div>
+          </Col>
+          <Col md="3">
+            <div className={`${styles.AboutSkillBox} ${styles.Two}`}>
+              <h3>React&Redux</h3>
+            </div>
+          </Col>
+          <Col md="2">
+            <div className={`${styles.AboutSkillBox} ${styles.Three}`}>
+              <h3>JQuery</h3>
+            </div>
+          </Col>
+          <Col md="2">
+            <div className={`${styles.AboutSkillBox} ${styles.Four}`}>
+              <h3>BootStrap</h3>
+            </div>
+          </Col>
+          <Col md="2">
+            <div className={`${styles.AboutSkillBox} ${styles.Five}`}>
+              <h3>Sass</h3>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md="12">
+            <div className={styles.AboutBigBox}>
+              <p>
+                어제보다 더 좋은 개발자가 되기 위해서
+                <br />
+                노력합니다.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </React.Fragment>
     );
   }
 }
