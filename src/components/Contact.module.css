@@ -1,10 +1,3 @@
-.ContactWrapper {
-  border: 1px dashed #e9ecef;
-  margin-top: 7rem;
-  margin-left: 10rem;
-  padding: 2rem;
-}
-
 .ContactTitle {
   font-size: 18px;
   margin-bottom: 4em;
@@ -13,17 +6,18 @@
   line-height: 1.8;
 }
 
-.BoxFirst {
-  width: 100px;
-  height: 100px;
-  background-color: #e9ecef;
-  text-align: center;
-  padding-top: 2rem;
+.ContactDesc p {
+  color: orange;
+  font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
-.BoxSecond {
-  width: 200px;
-  background-color: #f8f9fa;
-  text-align: center;
-  padding-top: 2rem;
+.ContactWrapper dl dt {
+  color: grey;
+}
+
+.ContactWrapper dl dd {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.1rem;
 }

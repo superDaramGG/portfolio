@@ -1,45 +1,38 @@
 import React, { Component } from "react";
 import styles from "./Contact.module.css";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
+import ContactImg from "../images/contactPic.jpg";
 
 class Contact extends Component {
   render() {
     return (
-      <div className={styles.ContactWrapper}>
-        <h2 className={styles.ContactTitle}>CONTACT</h2>
-        <Container>
-          <Row className="mt-5">
-            <Col>
-              <div className={styles.ContactBox}>
-                <div className="d-flex">
-                  <div className={styles.BoxFirst}>이름</div>
-                  <div className={styles.BoxSecond}>손예서</div>
-                </div>
-              </div>
-            </Col>
-          </Row>
-          <Row className="mt-5">
-            <Col>
-              <div className={styles.ContactBox}>
-                <div className="d-flex">
-                  <div className={styles.BoxFirst}>이메일</div>
-                  <div className={styles.BoxSecond}>superior817@naver.com</div>
-                </div>
-              </div>
-            </Col>
-          </Row>
-          <Row className="mt-5">
-            <Col>
-              <div className={styles.ContactBox}>
-                <div className="d-flex">
-                  <div className={styles.BoxFirst}>휴대전화</div>
-                  <div className={styles.BoxSecond}>010-3310-7180</div>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <React.Fragment>
+        <h2 className={styles.ContactTitle}>Contact</h2>
+        <Row>
+          <Col md="6">
+            <div className={styles.ContactDesc}>
+              <p>Do it big, do it right do it with style.</p>
+            </div>
+            <div className={styles.ContactWrapper}>
+              <dl>
+                <dt>이름</dt>
+                <dd>손예서 Yeseo Son</dd>
+              </dl>
+              <dl>
+                <dt>이메일</dt>
+                <dd>superior817@naver.com</dd>
+              </dl>
+              <dl>
+                <dt>연락처</dt>
+                <dd>010-3310-7180</dd>
+              </dl>
+            </div>
+          </Col>
+          <Col md="6">
+            <img src={ContactImg} alt="셔틀랜드 포니" />
+          </Col>
+        </Row>
+      </React.Fragment>
     );
   }
 }

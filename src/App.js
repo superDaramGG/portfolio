@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-// import { BrowserRouter } from "react-router-dom";
-// import { Route } from "react-router-dom";
 import styles from "./App.module.css";
-import { BrowserRouter } from "react-router-dom";
+import { Link, Switch, withRouter } from "react-router-dom";
 import { Route } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -24,52 +22,52 @@ class App extends Component {
             <br /> SON
           </div>
           <div className={styles.ListGroup}>
-            <a href="/" className={styles.ListItem}>
+            <Link to="/" className={styles.ListItem}>
               HOME
-            </a>
-            <a href="/About" className={styles.ListItem}>
+            </Link>
+            <Link to="/about" className={styles.ListItem}>
               ABOUT
-            </a>
-            <a href="/TechSkill" className={styles.ListItem}>
+            </Link>
+            <Link to="/tech_skill" className={styles.ListItem}>
               TECH SKILLS
-            </a>
-            <a href="/Project" className={styles.ListItem}>
+            </Link>
+            <Link to="/project" className={styles.ListItem}>
               PROJECT
-            </a>
-            <a href="/Experience" className={styles.ListItem}>
+            </Link>
+            <Link to="/experience" className={styles.ListItem}>
               EXPERIENCE
-            </a>
-            <a href="/Career" className={styles.ListItem}>
+            </Link>
+            <Link to="/career" className={styles.ListItem}>
               CAREER
-            </a>
-            <a href="/Education" className={styles.ListItem}>
+            </Link>
+            <Link to="/education" className={styles.ListItem}>
               EDUCATION
-            </a>
-            <a href="/Blog" className={styles.ListItem}>
+            </Link>
+            <Link to="/blog" className={styles.ListItem}>
               BLOG
-            </a>
-            <a href="/Contact" className={styles.ListItem}>
+            </Link>
+            <Link to="/contact" className={styles.ListItem}>
               CONTACT
-            </a>
+            </Link>
           </div>
         </div>
 
         <section className={styles.SectionWrapper}>
-          <BrowserRouter>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/About" component={About} />
-            <Route exact path="/TechSkill" component={TechSkill} />
-            <Route exact path="/Project" component={Project} />
-            <Route exact path="/Experience" component={Experience} />
-            <Route exact path="/Career" component={Career} />
-            <Route exact path="/Education" component={Education} />
-            <Route exact path="/Blog" component={Blog} />
-            <Route exact path="/Contact" component={Contact} />
-          </BrowserRouter>
+          <Switch>
+            <Route exact path="/about" component={About} />
+            <Route exact path="/tech_skill" component={TechSkill} />
+            <Route exact path="/project" component={Project} />
+            <Route exact path="/experience" component={Experience} />
+            <Route exact path="/career" component={Career} />
+            <Route exact path="/education" component={Education} />
+            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/contact" component={Contact} />
+            <Route component={Home} />
+          </Switch>
         </section>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

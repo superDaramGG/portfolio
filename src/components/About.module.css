@@ -67,6 +67,7 @@
   font-weight: bolder;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 123, 255, 0.25);
+  margin: unset;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
