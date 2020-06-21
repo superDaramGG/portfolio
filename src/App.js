@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styles from "./App.module.css";
-import { Link, Switch, withRouter } from "react-router-dom";
+import { Switch, withRouter } from "react-router-dom";
 import { Route } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -11,61 +11,39 @@ import Career from "./components/Career";
 import Education from "./components/Education";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
+import { Container, Row, Col } from "reactstrap";
+import SideContent from "./components/SideContent";
 
 class App extends Component {
   render() {
     return (
-      <div className={styles.Main}>
-        <div className={styles.SidebarWrapper}>
-          <div className={styles.LogoName}>
-            YESSEO
-            <br /> SON
-          </div>
-          <div className={styles.ListGroup}>
-            <Link to="/" className={styles.ListItem}>
-              HOME
-            </Link>
-            <Link to="/about" className={styles.ListItem}>
-              ABOUT
-            </Link>
-            <Link to="/tech_skill" className={styles.ListItem}>
-              TECH SKILLS
-            </Link>
-            <Link to="/project" className={styles.ListItem}>
-              PROJECT
-            </Link>
-            <Link to="/experience" className={styles.ListItem}>
-              EXPERIENCE
-            </Link>
-            <Link to="/career" className={styles.ListItem}>
-              CAREER
-            </Link>
-            <Link to="/education" className={styles.ListItem}>
-              EDUCATION
-            </Link>
-            <Link to="/blog" className={styles.ListItem}>
-              BLOG
-            </Link>
-            <Link to="/contact" className={styles.ListItem}>
-              CONTACT
-            </Link>
-          </div>
-        </div>
-
-        <section className={styles.SectionWrapper}>
-          <Switch>
-            <Route exact path="/about" component={About} />
-            <Route exact path="/tech_skill" component={TechSkill} />
-            <Route exact path="/project" component={Project} />
-            <Route exact path="/experience" component={Experience} />
-            <Route exact path="/career" component={Career} />
-            <Route exact path="/education" component={Education} />
-            <Route exact path="/blog" component={Blog} />
-            <Route exact path="/contact" component={Contact} />
-            <Route component={Home} />
-          </Switch>
-        </section>
-      </div>
+      <Container>
+        <Row>
+          <Col className={styles.buggerArea}>
+            <div className="d-xs-block d-md-none">BURGER</div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md="3" className="d-none d-md-block">
+            <SideContent />
+          </Col>
+          <Col md="9">
+            <section>
+              <Switch>
+                <Route exact path="/about" component={About} />
+                <Route exact path="/tech_skill" component={TechSkill} />
+                <Route exact path="/project" component={Project} />
+                <Route exact path="/experience" component={Experience} />
+                <Route exact path="/career" component={Career} />
+                <Route exact path="/education" component={Education} />
+                <Route exact path="/blog" component={Blog} />
+                <Route exact path="/contact" component={Contact} />
+                <Route component={Home} />
+              </Switch>
+            </section>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
