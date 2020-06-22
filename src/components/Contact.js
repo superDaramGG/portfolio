@@ -28,8 +28,12 @@ class Contact extends Component {
               </dl>
             </div>
           </Col>
-          <Col md="6">
-            <img src={ContactImg} alt="셔틀랜드 포니" />
+          <Col md="6" className={styles.imgWrapper}>
+            <img
+              src={ContactImg}
+              alt="셔틀랜드 포니"
+              className={styles.contactImg}
+            />
           </Col>
         </Row>
       </React.Fragment>
