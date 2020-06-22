@@ -9,3 +9,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* react-burger-menu css */
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 15px;
+  top: 36px;
+  z-index: 1050 !important;
+  border: 1px solid red;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #000;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  background-color: #fff;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1050 !important;
+}
+
+.bm-cross-button span {
+  background: #000;
+}
+
+@media (min-width: 566px) and (max-width: 768px) {
+  .bm-menu-wrap {
+    transform: translate3d(-140%, 0px, 0px);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 990px) {
+  .bm-burger-button {
+    right: 30px;
+    top: 15px;
+    width: 25px;
+    height: 20px;
+  }
+}

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import styles from "./App.module.css";
-import { Switch, withRouter } from "react-router-dom";
-import { Route } from "react-router-dom";
+import { Switch, withRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import TechSkill from "./components/TechSkill";
@@ -13,6 +12,7 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import { Container, Row, Col } from "reactstrap";
 import SideContent from "./components/SideContent";
+import MenuContent from "./components/MenuContent";
 
 class App extends Component {
   render() {
@@ -20,11 +20,13 @@ class App extends Component {
       <Container>
         <Row>
           <Col className={styles.buggerArea}>
-            <div className="d-xs-block d-md-none">BURGER</div>
+            <div className="d-xs-block d-md-none">
+              <MenuContent />
+            </div>
           </Col>
         </Row>
         <Row>
-          <Col md="3" className="d-none d-md-block">
+          <Col md="3" className="d-none d-md-block d-lg-block">
             <SideContent />
           </Col>
           <Col md="9">
