@@ -7,13 +7,13 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <h2 className={styles.ContactTitle}>Contact</h2>
+        <h2 className={styles.contactTitle}>CONTACT</h2>
         <Row>
           <Col md="6">
-            <div className={styles.ContactDesc}>
+            <div className={styles.contactDesc}>
               <p>Do it big, do it right do it with style.</p>
             </div>
-            <div className={styles.ContactWrapper}>
+            <div className={styles.contactWrapper}>
               <dl>
                 <dt>이름</dt>
                 <dd>손예서 Yeseo Son</dd>

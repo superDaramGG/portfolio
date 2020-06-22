@@ -26,10 +26,10 @@ class App extends Component {
           style={{ height: "calc(100vh - 56px)" }}
         >
           <Row>
-            <Col md="3" className="d-none d-md-block">
+            <Col md="2" className="d-none d-md-block">
               <SideContent />
             </Col>
-            <Col md="9">
+            <Col md="10">
               <section>
                 <Switch>
                   <Route exact path="/about" component={About} />

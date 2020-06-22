@@ -6,10 +6,10 @@ class Experience extends Component {
   render() {
     return (
       <React.Fragment>
-        <h2 className={styles.ExpTitle}>지금까지 해왔던 경험들입니다.</h2>
+        <h2 className={styles.expTitle}>지금까지 해왔던 경험들입니다.</h2>
         <Row>
           <Col md="4">
-            <div className={`${styles.ExpBox} ${styles.One}`}>
+            <div className={`${styles.expBox} ${styles.one}`}>
               <dl>
                 <dt>스타트업 경험</dt>
                 <dd>
@@ -23,7 +23,7 @@ class Experience extends Component {
             </div>
           </Col>
           <Col md="4">
-            <div className={`${styles.ExpBox} ${styles.Two}`}>
+            <div className={`${styles.expBox} ${styles.two}`}>
               <dl>
                 <dt>웹디자인 경험</dt>
                 <dd>
@@ -35,7 +35,7 @@ class Experience extends Component {
             </div>
           </Col>
           <Col md="4">
-            <div className={`${styles.ExpBox} ${styles.Three}`}>
+            <div className={`${styles.expBox} ${styles.three}`}>
               <dl>
                 <dt>웹퍼블리셔 경험</dt>
                 <dd>
@@ -48,7 +48,7 @@ class Experience extends Component {
         </Row>
         <Row>
           <Col md="4">
-            <div className={`${styles.ExpBox} ${styles.Four}`}>
+            <div className={`${styles.expBox} ${styles.four}`}>
               <dl>
                 <dt>쇼핑몰 경험</dt>
                 <dd>
@@ -59,7 +59,7 @@ class Experience extends Component {
             </div>
           </Col>
           <Col md="4">
-            <div className={`${styles.ExpBox} ${styles.Five}`}>
+            <div className={`${styles.expBox} ${styles.five}`}>
               <dl>
                 <dt>고도몰, 카페 24 운영 경험</dt>
                 <dd>
@@ -70,7 +70,7 @@ class Experience extends Component {
             </div>
           </Col>
           <Col md="4">
-            <div className={`${styles.ExpBox} ${styles.Six}`}>
+            <div className={`${styles.expBox} ${styles.six}`}>
               <dl>
                 <dt>거래소 경험</dt>
                 <dd>

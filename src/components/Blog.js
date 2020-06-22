@@ -7,11 +7,11 @@ class Blog extends Component {
   render() {
     return (
       <React.Fragment>
-        <h2 className={styles.BlogTitle}>BLOG</h2>
+        <h2 className={styles.blogTitle}>BLOG</h2>
         <Row>
           <Col>
             <div>
-              <a href="#" className={styles.BlogImgWrapper}>
+              <a href="#" className={styles.blogImgWrapper}>
                 <img src={BlogImg} alt="블로그 이미지" />
               </a>
               <div className={styles.desc}>

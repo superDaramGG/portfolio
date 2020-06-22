@@ -8,7 +8,7 @@ class TechSkill extends Component {
       <React.Fragment>
         <Row>
           <Col md="12">
-            <h2 className={styles.TechSkillTitle}>
+            <h2 className={styles.techSkillTitle}>
               지금껏
               <br />
               배운 기술입니다.
@@ -16,7 +16,7 @@ class TechSkill extends Component {
           </Col>
         </Row>
         <Row>
-          <Col md="6">
+          <Col md="6" className={styles.techSmallTitle}>
             <b>보유기술</b>
           </Col>
           <Col md="6">
@@ -51,7 +51,7 @@ class TechSkill extends Component {
         </Row>
         <hr />
         <Row className="mt-3">
-          <Col md="6">
+          <Col md="6" className={styles.techSmallTitle}>
             <b>협업</b>
           </Col>
           <Col md="6">
@@ -79,7 +79,7 @@ class TechSkill extends Component {
         </Row>
         <hr />
         <Row className="mt-3">
-          <Col md="6">
+          <Col md="6" className={styles.techSmallTitle}>
             <b>앞으로 관심분야</b>
           </Col>
           <Col md="6">

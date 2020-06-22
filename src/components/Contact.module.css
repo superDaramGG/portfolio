@@ -1,4 +1,4 @@
-.ContactTitle {
+.contactTitle {
   font-size: 18px;
   margin-bottom: 4em;
   font-weight: 700;
@@ -6,17 +6,17 @@
   line-height: 1.8;
 }
 
-.ContactDesc p {
+.contactDesc p {
   color: orange;
   font-size: 2rem;
   margin-bottom: 3rem;
 }
 
-.ContactWrapper dl dt {
+.contactWrapper dl dt {
   color: grey;
 }
 
-.ContactWrapper dl dd {
+.contactWrapper dl dd {
   color: #000;
   font-weight: bold;
   font-size: 1.1rem;
@@ -29,4 +29,5 @@
 .imgWrapper {
   display: flex;
   align-items: center;
+  margin-bottom: 2rem;
 }

@@ -1,4 +1,4 @@
-.BlogTitle {
+.blogTitle {
   font-size: 18px;
   margin-bottom: 4em;
   font-weight: 700;
@@ -6,12 +6,12 @@
   line-height: 1.8;
 }
 
-.BlogImgWrapper {
+.blogImgWrapper {
   display: inline-block;
   width: 100%;
 }
 
-.BlogImgWrapper img {
+.blogImgWrapper img {
   width: 244px;
   height: 171px;
   margin: 0 auto;

@@ -1,4 +1,4 @@
-.EducationTitle {
+.educationTitle {
   font-size: 18px;
   margin-bottom: 4em;
   font-weight: 700;
@@ -6,14 +6,14 @@
   line-height: 1.8;
 }
 
-.TimeLineWrapper {
+.timeLineWrapper {
   position: relative;
   width: 100%;
   height: 750px;
   margin: 0 auto;
 }
 
-.CircleBox {
+.circleBox {
   width: 50px;
   height: 50px;
   border: 1px solid #000;
@@ -26,7 +26,7 @@
   box-shadow: 10px 10px grey;
 }
 
-.TimeLine {
+.timeLine {
   width: 1px;
   height: 550px;
   background-color: #000;
@@ -34,84 +34,84 @@
   left: 25px;
 }
 
-.SmallCircleOne,
-.SmallCircleTwo,
-.SmallCircleThree,
-.SmallCircleFour,
-.SmallCircleFive,
-.SmallCircleSix {
+.smallCircleOne,
+.smallCircleTwo,
+.smallCircleThree,
+.smallCircleFour,
+.smallCircleFive,
+.smallCircleSix {
   width: 10px;
   height: 10px;
   background-color: red;
 }
 
-.SmallCircleOne {
+.smallCircleOne {
   position: absolute;
   left: 20px;
   top: 100px;
 }
 
-.SmallCircleTwo {
+.smallCircleTwo {
   position: absolute;
   left: 20px;
   top: 200px;
 }
 
-.SmallCircleThree {
+.smallCircleThree {
   position: absolute;
   left: 20px;
   top: 300px;
 }
 
-.SmallCircleFour {
+.smallCircleFour {
   position: absolute;
   left: 20px;
   top: 400px;
 }
 
-.SmallCircleFive {
+.smallCircleFive {
   position: absolute;
   left: 20px;
   top: 500px;
 }
 
-.SmallCircleSix {
+.smallCircleSix {
   position: absolute;
   left: 20px;
   top: 600px;
 }
 
-.TextOne {
+.textOne {
   position: absolute;
   left: 40px;
   top: 100px;
 }
 
-.TextTwo {
+.textTwo {
   position: absolute;
   left: 40px;
   top: 200px;
 }
 
-.TextThree {
+.textThree {
   position: absolute;
   left: 40px;
   top: 300px;
 }
 
-.TextFour {
+.textFour {
   position: absolute;
   left: 40px;
   top: 400px;
 }
 
-.TextFive {
+.textFive {
   position: absolute;
   left: 40px;
   top: 500px;
 }
 
-.TextSix {
+.textSix {
   position: absolute;
   left: 40px;
   top: 600px;

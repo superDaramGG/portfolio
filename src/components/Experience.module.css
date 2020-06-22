@@ -1,13 +1,12 @@
-.ExpTitle {
+.expTitle {
   font-size: 18px;
   margin-bottom: 4em;
   font-weight: 700;
   letter-spacing: 5px;
   line-height: 1.8;
-  margin-top: 4rem;
 }
 
-.ExpBox {
+.expBox {
   height: 326px;
   margin-bottom: 30px;
   padding: 1rem 1rem 1rem 1rem;
@@ -19,42 +18,42 @@
   border-radius: 3%;
 }
 
-.ExpBox dl dt {
+.expBox dl dt {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
-.ExpBox dl dd {
+.expBox dl dd {
   font-weight: lighter;
 }
 
-.One {
+.one {
   border-bottom: 10px solid #2c98f0;
 }
 
-.Two {
+.two {
   border-bottom: 10px solid #dc3545;
 }
 
-.Three {
+.three {
   border-bottom: 10px solid #ffc107;
 }
 
-.Four {
+.four {
   border-bottom: 10px solid #28a745;
 }
 
-.Five {
+.five {
   border-bottom: 10px solid #495057;
 }
 
-.Six {
+.six {
   border-bottom: 10px solid #2cf0cc;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .ExpBox {
+  .expBox {
     height: 458px;
   }
 }

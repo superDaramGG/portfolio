@@ -20,8 +20,8 @@ class Home extends Component {
     return (
       <Row>
         <Col>
-          <div className={styles.MainImgWrapper}>
-            <p className={styles.MainTitle}>
+          <div className={styles.mainImgWrapper}>
+            <p className={styles.mainTitle}>
               I'm
               <br />
               Front-end developer

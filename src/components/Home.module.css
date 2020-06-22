@@ -1,19 +1,21 @@
-.MainImgWrapper {
+.mainImgWrapper {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.MainTitle {
+.mainTitle {
   position: absolute;
   font-weight: 900;
-  top: 80px;
-  left: 10px;
+  bottom: 20px;
+  right: 10px;
   color: #fff;
   font-size: 3rem;
-  text-align: left;
+  text-align: right;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075);
   z-index: 100;
+  letter-spacing: 1rem;
+  word-spacing: 8rem;
 }
 
 .imageSize {
@@ -30,5 +32,10 @@
 @media (max-width: 768px) {
   .imageSize {
     height: 551px;
+  }
+
+  .mainTitle {
+    font-size: 1.3rem;
+    font-weight: bold;
   }
 }

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import styles from "./Project.module.css";
 import { Row, Col } from "reactstrap";
-
 import CoinoneCoreImg from "../images/p1.png";
 import MembershipImg from "../images/p2.png";
 
@@ -9,9 +8,10 @@ class Project extends Component {
   render() {
     return (
       <React.Fragment>
-        <h2 className={styles.projectTitle}>Project</h2>
+        <h2 className={styles.projectTitle}>PROJECT</h2>
         <Row className={styles.projectContent}>
-          <Col>
+          <Col md="3"></Col>
+          <Col md="9">
             <img
               src={CoinoneCoreImg}
               alt="코인원 코어 엔진 데모 사이트 이미지"
@@ -26,7 +26,8 @@ class Project extends Component {
           </Col>
         </Row>
         <Row className={styles.projectContent}>
-          <Col>
+          <Col md="3"></Col>
+          <Col md="9">
             <img
               src={MembershipImg}
               alt="멤버십 사이트 페이지"

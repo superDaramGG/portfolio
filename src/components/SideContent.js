@@ -7,14 +7,14 @@ class SideContent extends Component {
   render() {
     return (
       <div>
-        <div className={styles.LogoName}>
+        <div className={styles.logoName}>
           YESSEO
           <br /> SON
         </div>
-        <div className={styles.ListGroup}>
+        <div className={styles.listGroup}>
           <NavLink
             to="/"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
@@ -22,7 +22,7 @@ class SideContent extends Component {
           </NavLink>
           <NavLink
             to="/about"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
@@ -30,7 +30,7 @@ class SideContent extends Component {
           </NavLink>
           <NavLink
             to="/tech_skill"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
@@ -38,7 +38,7 @@ class SideContent extends Component {
           </NavLink>
           <NavLink
             to="/project"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
@@ -46,7 +46,7 @@ class SideContent extends Component {
           </NavLink>
           <NavLink
             to="/experience"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
@@ -54,7 +54,7 @@ class SideContent extends Component {
           </NavLink>
           <NavLink
             to="/career"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
@@ -62,7 +62,7 @@ class SideContent extends Component {
           </NavLink>
           <NavLink
             to="/education"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
@@ -70,7 +70,7 @@ class SideContent extends Component {
           </NavLink>
           <NavLink
             to="/blog"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
@@ -78,7 +78,7 @@ class SideContent extends Component {
           </NavLink>
           <NavLink
             to="/contact"
-            className={styles.ListItem}
+            className={styles.listItem}
             activeClassName="selected"
             onClick={this.props.onCloseClick}
           >
