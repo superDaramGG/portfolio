@@ -22,9 +22,9 @@ class Home extends Component {
         <Col>
           <div className={styles.mainImgWrapper}>
             <p className={styles.mainTitle}>
-              I'm
+              HI,
               <br />
-              Front-end developer
+              I'M YESEO
             </p>
             <div>
               <Slide {...properties}>
