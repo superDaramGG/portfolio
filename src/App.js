@@ -26,7 +26,7 @@ class App extends Component {
           </Col>
         </Row>
         <Row>
-          <Col md="3" className="d-none d-md-block d-lg-block">
+          <Col md="3" className="d-none d-md-block">
             <SideContent />
           </Col>
           <Col md="9">
