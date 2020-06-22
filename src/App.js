@@ -17,35 +17,36 @@ import MenuContent from "./components/MenuContent";
 class App extends Component {
   render() {
     return (
-      <Container className={styles.portAllWrapper}>
-        <Row>
-          <Col className={styles.buggerArea}>
-            <div className="d-xs-block d-md-none">
-              <MenuContent />
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col md="3" className="d-none d-md-block">
-            <SideContent />
-          </Col>
-          <Col md="9">
-            <section>
-              <Switch>
-                <Route exact path="/about" component={About} />
-                <Route exact path="/tech_skill" component={TechSkill} />
-                <Route exact path="/project" component={Project} />
-                <Route exact path="/experience" component={Experience} />
-                <Route exact path="/career" component={Career} />
-                <Route exact path="/education" component={Education} />
-                <Route exact path="/blog" component={Blog} />
-                <Route exact path="/contact" component={Contact} />
-                <Route component={Home} />
-              </Switch>
-            </section>
-          </Col>
-        </Row>
-      </Container>
+      <React.Fragment>
+        <div className="d-xs-block d-md-none">
+          <MenuContent />
+        </div>
+        <Container
+          className={styles.portAllWrapper}
+          style={{ height: "calc(100vh - 56px)" }}
+        >
+          <Row>
+            <Col md="3" className="d-none d-md-block">
+              <SideContent />
+            </Col>
+            <Col md="9">
+              <section>
+                <Switch>
+                  <Route exact path="/about" component={About} />
+                  <Route exact path="/tech_skill" component={TechSkill} />
+                  <Route exact path="/project" component={Project} />
+                  <Route exact path="/experience" component={Experience} />
+                  <Route exact path="/career" component={Career} />
+                  <Route exact path="/education" component={Education} />
+                  <Route exact path="/blog" component={Blog} />
+                  <Route exact path="/contact" component={Contact} />
+                  <Route component={Home} />
+                </Switch>
+              </section>
+            </Col>
+          </Row>
+        </Container>
+      </React.Fragment>
     );
   }
 }

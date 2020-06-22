@@ -19,7 +19,6 @@ code {
   left: 15px;
   top: 36px;
   z-index: 1050 !important;
-  border: 1px solid red;
 }
 
 /* Color/shape of burger icon bars */
@@ -50,12 +49,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .bm-cross-button span {
   background: #000;
-}
-
-@media (min-width: 566px) and (max-width: 768px) {
-  .bm-menu-wrap {
-    transform: translate3d(-140%, 0px, 0px);
-  }
 }
 
 @media (min-width: 300px) and (max-width: 990px) {
