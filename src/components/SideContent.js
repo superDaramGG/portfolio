@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import styles from "./SideContent.module.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 class SideContent extends Component {
   render() {
@@ -11,37 +12,86 @@ class SideContent extends Component {
           <br /> SON
         </div>
         <div className={styles.ListGroup}>
-          <Link to="/" className={styles.ListItem}>
+          <NavLink
+            to="/"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             HOME
-          </Link>
-          <Link to="/about" className={styles.ListItem}>
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             ABOUT
-          </Link>
-          <Link to="/tech_skill" className={styles.ListItem}>
+          </NavLink>
+          <NavLink
+            to="/tech_skill"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             TECH SKILLS
-          </Link>
-          <Link to="/project" className={styles.ListItem}>
+          </NavLink>
+          <NavLink
+            to="/project"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             PROJECT
-          </Link>
-          <Link to="/experience" className={styles.ListItem}>
+          </NavLink>
+          <NavLink
+            to="/experience"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             EXPERIENCE
-          </Link>
-          <Link to="/career" className={styles.ListItem}>
+          </NavLink>
+          <NavLink
+            to="/career"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             CAREER
-          </Link>
-          <Link to="/education" className={styles.ListItem}>
+          </NavLink>
+          <NavLink
+            to="/education"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             EDUCATION
-          </Link>
-          <Link to="/blog" className={styles.ListItem}>
+          </NavLink>
+          <NavLink
+            to="/blog"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             BLOG
-          </Link>
-          <Link to="/contact" className={styles.ListItem}>
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className={styles.ListItem}
+            activeClassName="selected"
+            onClick={this.props.onCloseClick}
+          >
             CONTACT
-          </Link>
+          </NavLink>
         </div>
       </div>
     );
   }
 }
+
+SideContent.propTypes = {
+  onCloseClick: PropTypes.func.isRequired,
+};
 
 export default SideContent;
