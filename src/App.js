@@ -17,7 +17,7 @@ import MenuContent from "./components/MenuContent";
 class App extends Component {
   render() {
     return (
-      <Container>
+      <Container className={styles.portAllWrapper}>
         <Row>
           <Col className={styles.buggerArea}>
             <div className="d-xs-block d-md-none">

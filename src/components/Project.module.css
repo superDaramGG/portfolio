@@ -1,0 +1,17 @@
+.projectTitle {
+  font-size: 18px;
+  margin-bottom: 4em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.8;
+}
+
+.projectContent {
+  margin-bottom: 5rem;
+}
+
+.projectImgSize {
+  width: 400px;
+  height: 250px;
+  border: 1px dotted #000;
+}
