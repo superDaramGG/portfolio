@@ -6,6 +6,11 @@ import MembershipImg from "../images/p2.png";
 import XgreenImg from "../images/p3.png";
 import GurufitGodoImg from "../images/p4.png";
 import GurufitBetaImg from "../images/p5.png";
+import One from "../pdf/1.pdf";
+import Two from "../pdf/2.pdf";
+import Three from "../pdf/3.pdf";
+import Four from "../pdf/4.pdf";
+import Five from "../pdf/5.pdf";
 
 class Project extends Component {
   render() {
@@ -26,7 +31,7 @@ class Project extends Component {
                 <dd>React로 만든 코인원 코어 데모 사이트입니다.</dd>
               </dl>
             </div>
-            <a href="#" className={styles.btnBlue}>
+            <a href={One} className={styles.btnBlue} target="blank">
               구현 기능 상세보기
             </a>
           </Col>
@@ -45,7 +50,7 @@ class Project extends Component {
                 <dd>React로 구성되어진 사이트입니다.</dd>
               </dl>
             </div>
-            <a href="#" className={styles.btnBlue}>
+            <a href={Two} className={styles.btnBlue} target="blank">
               구현 기능 상세보기
             </a>
           </Col>
@@ -68,7 +73,7 @@ class Project extends Component {
                 </dd>
               </dl>
             </div>
-            <a href="#" className={styles.btnBlue}>
+            <a href={Three} className={styles.btnBlue} target="blank">
               구현 기능 상세보기
             </a>
           </Col>
@@ -87,7 +92,7 @@ class Project extends Component {
                 <dd>고도몰로 구축되어진 사이트입니다.</dd>
               </dl>
             </div>
-            <a href="#" className={styles.btnBlue}>
+            <a href={Four} className={styles.btnBlue} target="blank">
               구현 기능 상세보기
             </a>
           </Col>
@@ -106,7 +111,7 @@ class Project extends Component {
                 <dd>HTML, CSS, jQuery로 구축되어진 사이트입니다.</dd>
               </dl>
             </div>
-            <a href="#" className={styles.btnBlue}>
+            <a href={Five} className={styles.btnBlue} target="blank">
               구현 기능 상세보기
             </a>
           </Col>
