@@ -23,6 +23,34 @@
   border: 1px dotted #000;
 }
 
+.btnBlue {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all 0.1s;
+  background-color: #5bc0de;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+.btnBlue:hover {
+  text-decoration: none;
+  color: #ddd;
+  font-weight: bolder;
+  background-color: #31b0d5;
+}
+
+.btnBlue:active {
+  border-bottom: 2px solid #165196;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
