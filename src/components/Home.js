@@ -7,7 +7,7 @@ import HomeTwo from "../images/home2.jpg";
 import HomeThree from "../images/home3.jpg";
 
 const properties = {
-  duration: 3000,
+  duration: 2000,
   transitionDuration: 500,
   infinite: true,
   indicators: true,

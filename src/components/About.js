@@ -9,10 +9,7 @@ class About extends Component {
         <Row>
           <Col md="6">
             <div className={styles.aboutLeft}>
-              <h2>
-                주니어 프론트엔드
-                <br /> 개발자 입니다.
-              </h2>
+              <h2>ABOUT</h2>
               <p className={styles.first}>
                 <b>"안녕하세요. 손예서 입니다."</b>
               </p>

@@ -19,7 +19,7 @@ class TechSkill extends Component {
           <Col md="6" className={styles.techSmallTitle}>
             <b>보유기술</b>
           </Col>
-          <Col md="6">
+          <Col md="6" className={styles.techContent}>
             <dl>
               <dt>Programming Language</dt>
               <dd>Javascript(ES6),HTML5,CSS3</dd>
@@ -54,7 +54,7 @@ class TechSkill extends Component {
           <Col md="6" className={styles.techSmallTitle}>
             <b>협업</b>
           </Col>
-          <Col md="6">
+          <Col md="6" className={styles.techContent}>
             <dl>
               <dt>Cooperation Tool</dt>
               <dd>Slack, Google Email</dd>
@@ -82,7 +82,7 @@ class TechSkill extends Component {
           <Col md="6" className={styles.techSmallTitle}>
             <b>앞으로 관심분야</b>
           </Col>
-          <Col md="6">
+          <Col md="6" className={styles.techContent}>
             <dl>
               <dt>Interests</dt>
               <dd>Vue.js</dd>
