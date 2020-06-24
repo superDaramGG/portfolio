@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styles from "./Blog.module.css";
 import { Row, Col } from "reactstrap";
-import BlogImg from "../images/blogPic.jpg";
+import BlogImg from "../images/blogPic.png";
 
 class Blog extends Component {
   render() {
@@ -11,11 +11,15 @@ class Blog extends Component {
         <Row>
           <Col>
             <div>
-              <a href="#" className={styles.blogImgWrapper}>
+              <a
+                href="https://superdaramgg.tistory.com/"
+                className={styles.blogImgWrapper}
+                target="blank"
+              >
                 <img src={BlogImg} alt="블로그 이미지" />
               </a>
               <div className={styles.desc}>
-                <h3>yete의 개발로그</h3>
+                <h3>superDaramGG 개발로그</h3>
                 <small>개발 블로그 운영</small>
                 <p>
                   더 성장하기 위해서
