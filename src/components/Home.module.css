@@ -29,6 +29,10 @@
   -o-animation: fadein 3s; /* Opera */
 }
 
+.homeText {
+  display: none;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -76,11 +80,19 @@
 
 @media (max-width: 768px) {
   .imageSize {
-    height: 551px;
+    height: unset;
   }
 
   .mainTitle {
     font-size: 1.3rem;
     font-weight: bold;
+    bottom: unset;
+  }
+
+  .homeText {
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
   }
 }

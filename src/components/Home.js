@@ -56,6 +56,16 @@ class Home extends Component {
                   </span>
                 </div>
               </Slide>
+              <div className={styles.homeText}>
+                안녕하세요.
+                <br />
+                <br />
+                사이트에 방문해주신 분들
+                <br />
+                모두 모두 행복하시고
+                <br />
+                부자 되세요.
+              </div>
             </div>
           </div>
         </Col>
