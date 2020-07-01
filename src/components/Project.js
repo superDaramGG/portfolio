@@ -44,11 +44,17 @@ class Project extends Component {
               alt="멤버십 사이트 페이지"
               className={styles.projectImgSize}
             />
-            <div className="mt-5">
+            <div className="mt-5 mb-3">
               <dl>
                 <dt>아이펀팩토리 회사 사이트 멤버십 프로젝트</dt>
                 <dd>React로 구성되어진 사이트입니다.</dd>
               </dl>
+              <a
+                href="https://www.ifunfactory.com/account/signup_email"
+                target="blank"
+              >
+                아이펀팩토리 홈페이지
+              </a>
             </div>
             <a href={Two} className={styles.btnBlue} target="blank">
               구현 기능 상세보기
@@ -63,7 +69,7 @@ class Project extends Component {
               alt="xgreen 사이트"
               className={styles.projectImgSize}
             />
-            <div className="mt-5">
+            <div className="mt-5 mb-3">
               <dl>
                 <dt>Xgreen 거래소</dt>
                 <dd>
@@ -72,6 +78,10 @@ class Project extends Component {
                   지금 현재는 랜딩 페이지만 남아있는 상태입니다.
                 </dd>
               </dl>
+              <a href="https://exgreen.io/" target="blank">
+                엑스그린 홈페이지(모바일은 되지 않습니다. 지금 현재 랜딩페이지만
+                볼 수 있습니다.)
+              </a>
             </div>
             <a href={Three} className={styles.btnBlue} target="blank">
               구현 기능 상세보기
