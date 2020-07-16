@@ -69,14 +69,6 @@ class SideContent extends Component {
             EDUCATION
           </NavLink>
           <NavLink
-            to="/blog"
-            className={styles.listItem}
-            activeClassName="selected"
-            onClick={this.props.onCloseClick}
-          >
-            BLOG
-          </NavLink>
-          <NavLink
             to="/contact"
             className={styles.listItem}
             activeClassName="selected"

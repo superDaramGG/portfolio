@@ -8,7 +8,6 @@ import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Career from "./components/Career";
 import Education from "./components/Education";
-import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import { Container, Row, Col } from "reactstrap";
 import SideContent from "./components/SideContent";
@@ -38,7 +37,6 @@ class App extends Component {
                   <Route exact path="/experience" component={Experience} />
                   <Route exact path="/career" component={Career} />
                   <Route exact path="/education" component={Education} />
-                  <Route exact path="/blog" component={Blog} />
                   <Route exact path="/contact" component={Contact} />
                   <Route component={Home} />
                 </Switch>
