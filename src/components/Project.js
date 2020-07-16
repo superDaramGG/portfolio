@@ -120,6 +120,10 @@ class Project extends Component {
                 <dt>구루핏 베타</dt>
                 <dd>HTML, CSS, jQuery로 구축되어진 사이트입니다.</dd>
               </dl>
+              <a href="http://superior817.dothome.co.kr/" target="blank">
+                구루핏 베타 사이트(반응형은 되지 않습니다. 지금 현재
+                랜딩페이지만 볼 수 있습니다.)
+              </a>
             </div>
             <a href={Five} className={styles.btnBlue} target="blank">
               구현 기능 상세보기
